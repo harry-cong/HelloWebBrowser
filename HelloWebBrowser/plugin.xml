@@ -65,5 +65,8 @@
          </property>
       </product>
    </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+   </extension>
 
 </plugin>
