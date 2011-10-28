@@ -8,7 +8,10 @@ public class Perspective implements IPerspectiveFactory {
 	public void createInitialLayout(IPageLayout layout) {
 		layout.setEditorAreaVisible(false);
 		layout.setFixed(true);
-		
+		/* this is cong comment 
+		 * 
+		 * */
+		System.out.println("CONG TEST Crete InitialLayout!!!");
 	}
 
 }
