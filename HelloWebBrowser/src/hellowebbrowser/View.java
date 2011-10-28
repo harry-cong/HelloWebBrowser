@@ -16,7 +16,7 @@ import org.eclipse.ui.part.ViewPart;
 public class View extends ViewPart {
 	public static final String ID = "HelloWebBrowser.view";
 
-	private TableViewer viewer;
+	private Composite viewer;
 	
 	private Browser browser;
 
